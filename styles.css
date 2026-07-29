@@ -35,6 +35,8 @@
     display: grid;
     grid-template-columns: 3fr 2fr;
     grid-template-rows: 1fr 1fr;
+    padding: 24px;
+    gap: 20px;
 }
 
 .main {
@@ -78,4 +80,45 @@
 
 .nav-item:hover {
     background: rgba(255, 255, 255, 0.15);
+}
+
+.profile-summary {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.intro-container {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.search input {
+    width: 100%;
+    border-radius: 28px;
+    height: 32px;
+    border: none;
+    padding: 8px 24px;
+}
+
+.search {
+    display:flex;
+    align-items:center;
+}
+
+.button-group {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    
+}
+
+.button-group button {
+    width: 90px;
+    height: 34px;
+    border-radius: 40px;
+    color: white;
+    background-color: #1992d4;
+    border: none;
 }
