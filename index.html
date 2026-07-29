@@ -8,212 +8,226 @@
 </head>
 <body>
 
-    <div class="container">
-        <div class="sidebar">
+<div class="container">
 
-            <div class="logo">
-                <img src="/assets/view-dashboard.svg">
-                <p>Dashboard</p>
-            </div>
+    <aside class="sidebar">
 
-            <div class="main-nav">
+        <h1 class="logo">Dashboard</h1>
 
-                <div class="nav-item">
-                    <img src="/assets/home.svg">
-                    <p>Home</p>
-                </div>
+        <nav class="main-nav">
+            <div class="nav-item">Home</div>
+            <div class="nav-item">Profile</div>
+            <div class="nav-item">Messages</div>
+            <div class="nav-item">History</div>
+            <div class="nav-item">Tasks</div>
+            <div class="nav-item">Communities</div>
+        </nav>
 
-                <div class="nav-item">
-                    <img src="/assets/face-man-profile.svg">
-                    <p>Profile</p>
-                </div>
+        <nav class="secondary-nav">
+            <div class="nav-item">Settings</div>
+            <div class="nav-item">Support</div>
+            <div class="nav-item">Privacy</div>
+        </nav>
 
-                <div class="nav-item">
-                    <img src="/assets/message.svg">
-                    <p>Messages</p>
-                </div>
+    </aside>
 
-                <div class="nav-item">
-                    <img src="/assets/history.svg">
-                    <p>History</p>
-                </div>
+    <header class="header">
 
-                <div class="nav-item">
-                    <img src="/assets/file-tree.svg">
-                    <p>Tasks</p>
-                </div>
-
-                <div class="nav-item">
-                    <img src="/assets/account-group-outline.svg">
-                    <p>Communities</p>
-                </div>
-
-            </div>
-
-            <div class="secondary-nav">
-
-                <div class="nav-item">
-                    <img src="/assets/cog.svg">
-                    <p>Settings</p>
-                </div>
-
-                <div class="nav-item">
-                    <img src="/assets/face-agent.svg">
-                    <p>Support</p>
-                </div>
-
-                <div class="nav-item">
-                    <img src="/assets/shield-lock.svg">
-                    <p>Privacy</p>
-                </div>
-
-            </div>
-
+        <div class="search">
+            <input type="search" placeholder="Search...">
         </div>
 
-    <div class="header">
-        <div class="input-container">
-            <img src="/assets/magnify.svg">
-            <input>
-        </div>
-        
-        <div class="link-to-profile-details">
-            <img src="/assets/bell-ring.svg">
-            <img src="/assets/photo_2026-04-12_21-06-56.jpg">
+        <div class="profile-summary">
+            <div class="avatar">Avatar</div>
             <p>Henok Netsanet</p>
         </div>
+
         <div class="intro-container">
-            <img src="/assets/photo_2026-04-12_21-06-56.jpg">
+
+            <div class="avatar large">Avatar</div>
+
             <div class="intro">
                 <p>Hi there,</p>
-                <p>Henok Netsanet (@stellar)</p>
+                <h2>Henok Netsanet (@stellar)</h2>
             </div>
+
         </div>
 
-        <div class="btn-container">
+        <div class="button-group">
             <button>New</button>
             <button>Upload</button>
             <button>Share</button>
         </div>
-    </div>
-    
-    <div class="main">
-        <div class="projects">
-        <p class="section-title">Your Projects</p>
-        <div class="projects-list">
-            <div class="project-card">
-                <p>Super Cool Project</p>
-                <p>Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh erat, id facilisis felis accumsan nec.</p>
-                <div class="icons">
-                    <img src="/assets/star-plus.svg">
-                    <img src="/assets/eye-refresh.svg">
-                    <img src="/assets/source-fork.svg">
+
+    </header>
+
+    <main class="main">
+
+        <section class="projects">
+
+            <h2>Your Projects</h2>
+
+            <div class="projects-list">
+
+                <article class="project-card">
+
+                    <div class="project-content">
+                        <h3>Super Cool Project</h3>
+                        <p>
+                            Sed tempus ut lacus ut scelerisque. Suspendisse
+                            sollicitudin nibh erat, id facilisis felis accumsan
+                            nec.
+                        </p>
+                    </div>
+
+                    <div class="project-actions">
+                        Actions
+                    </div>
+
+                </article>
+
+                <article class="project-card">
+
+                    <div class="project-content">
+                        <h3>Less Cool Project</h3>
+                        <p>
+                            Nullam condimentum ipsum ut lectus vehicula
+                            consectetur.
+                        </p>
+                    </div>
+
+                    <div class="project-actions">
+                        Actions
+                    </div>
+
+                </article>
+
+                <article class="project-card">
+
+                    <div class="project-content">
+                        <h3>Impossible App</h3>
+                        <p>
+                            In hac habitasse platea dictumst. Vivamus dictum
+                            rutrum arcu.
+                        </p>
+                    </div>
+
+                    <div class="project-actions">
+                        Actions
+                    </div>
+
+                </article>
+
+                <article class="project-card">
+
+                    <div class="project-content">
+                        <h3>Easy Peasy App</h3>
+                        <p>
+                            Etiam cursus eros ac efficitur fringilla.
+                        </p>
+                    </div>
+
+                    <div class="project-actions">
+                        Actions
+                    </div>
+
+                </article>
+
+                <article class="project-card">
+
+                    <div class="project-content">
+                        <h3>Ad Blocker</h3>
+                        <p>
+                            Quisque eget rutrum nisl.
+                        </p>
+                    </div>
+
+                    <div class="project-actions">
+                        Actions
+                    </div>
+
+                </article>
+
+                <article class="project-card">
+
+                    <div class="project-content">
+                        <h3>Money Maker</h3>
+                        <p>
+                            Praesent convallis, libero quis congue elementum.
+                        </p>
+                    </div>
+
+                    <div class="project-actions">
+                        Actions
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+        <aside class="right-panel">
+
+            <section class="announcements">
+
+                <h2>Announcements</h2>
+
+                <div class="announcement-content">
+                    <p>Announcement One</p>
+                    <p>Announcement Two</p>
+                    <p>Announcement Three</p>
                 </div>
-            </div>
 
-            <div class="project-card">
-                <p>Less Cool Project</p>
-                <p>Nullam condimentum ipsum ut lectus vehicula consectetur. Quisque sed dolor tincidunt, consectetur sapien et, facilisis dolor. Duis sem purus, dignissim ut sapien in, varius pellentesque lacus.</p>
-                <div class="icons">
-                    <img src="/assets/star-plus.svg">
-                    <img src="/assets/eye-refresh.svg">
-                    <img src="/assets/source-fork.svg">
-                </div>
-            </div>
+            </section>
 
-            <div class="project-card">
-                <p>Impossible App</p>
-                <p>In hac habitasse platea dictumst. Vivamus dictum rutrum arcu, a placerat velit sagittis id.</p>
-                <div class="icons">
-                    <img src="/assets/star-plus.svg">
-                    <img src="/assets/eye-refresh.svg">
-                    <img src="/assets/source-fork.svg">
-                </div>
-            </div>
+            <section class="trending">
 
-            <div class="project-card">
-                <p>Easy Peasy App</p>
-                <p>Etiam cursus eros ac efficitur fringilla. Vestibulum dignissim urna eget accumsan aliquam. Curabitur dignissim nisi in tortor commodo, ac bibendum magna tincidunt.</p>
-                <div class="icons">
-                    <img src="/assets/star-plus.svg">
-                    <img src="/assets/eye-refresh.svg">
-                    <img src="/assets/source-fork.svg">
-                </div>
-            </div>
+                <h2>Trending</h2>
 
-            <div class="project-card">
-                <p>Ad Blocker</p>
-                <p>Quisque eget rutrum nisl. Nam augue justo, cursus vitae metus vel, pharetra hendrerit felis. Aliquam sed malesuada eros.</p>
-                <div class="icons">
-                    <img src="/assets/star-plus.svg">
-                    <img src="/assets/eye-refresh.svg">
-                    <img src="/assets/source-fork.svg">
-                </div>
-            </div>
-
-            <div class="project-card">
-                <p>Money Maker</p>
-                <p>Praesent convallis, libero quis congue elementum, nunc ante faucibus sapien, ac scelerisque tortor purus sit amet ex. Pellentesque mollis nec sem vel aliquam.</p>
-                <div class="icons">
-                    <img src="/assets/star-plus.svg">
-                    <img src="/assets/eye-refresh.svg">
-                    <img src="/assets/source-fork.svg">
-                </div>
-            </div>
-        </div>
-    </div>
-
-        <div class="announcement-trend">
-            <div class="announcement">
-            <p class="section-title">Announcement</p>
-            <div class="announcement-content">
-                <p></p>
-                <p></p>
-                <p></p>
-            </div>
-            </div>
-
-            <div class="trending">
-                <p class="section-title">Trending</p>
                 <div class="trending-content">
+
                     <div class="trend">
-                        <img src="/assets/photo_2026-04-12_21-06-56.jpg">
-                        <div class="img-txt">
+                        <div class="avatar">Avatar</div>
+                        <div>
                             <p>@Henok</p>
                             <p>World Peace Maker</p>
                         </div>
                     </div>
 
                     <div class="trend">
-                    <img src="/assets/photo_2026-04-12_21-06-56.jpg">
-                    <div class="img-txt">
-                        <p>@Nardos</p>
-                        <p>Super Cool Project</p>
-                    </div>
+                        <div class="avatar">Avatar</div>
+                        <div>
+                            <p>@Nardos</p>
+                            <p>Super Cool Project</p>
+                        </div>
                     </div>
 
                     <div class="trend">
-                        <img src="/assets/photo_2026-04-12_21-06-56.jpg">
-                        <div class="img-txt">
+                        <div class="avatar">Avatar</div>
+                        <div>
                             <p>@Aaron</p>
                             <p>Life Changing App</p>
                         </div>
                     </div>
 
                     <div class="trend">
-                        <img src="/assets/photo_2026-04-12_21-06-56.jpg">
-                        <div class="img-txt">
-                            <p>@alex</p>
+                        <div class="avatar">Avatar</div>
+                        <div>
+                            <p>@Alex</p>
                             <p>No Traffic Maker</p>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
 
-    </div>
-    
-    </div>
+                </div>
+
+            </section>
+
+        </aside>
+
+    </main>
+
+</div>
 
 </body>
 </html>
